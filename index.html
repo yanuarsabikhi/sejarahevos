@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Akhir</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <!--Header halaman web-->
+    <header>
+        <div class="judul">
+            <h1>EVOS LEGENDS</h1>
+            <p>Become Legends</p>
+        </div>
+        <!--Navigasi diletakan dibawah header secara horizontal-->
+        <nav>
+            <ul>
+                <li><a href="#About" >About</a></li>
+                <li><a href="#Article">Article</a></li>
+                <li><a href="#Home">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container" id="evos">
+        <!--Digunakan untuk mengisi konten-->
+        <article class="card">
+            <h2>Evos Legends</h2>
+            <img src="assets/image/evos.png" alt="Evos Legends Logo" class="logo">
+            <p>
+                EVOS Legends merupakan salah satu tim divisi dari EVOS Esports di game Mobile Legends: Bang Bang yang berasal dari Indonesia dan merupakan salah satu peserta MPL ID.
+            </p><br>
+        <section>
+            <h3>Informasi Mengenai Evos Legends</h3>
+                <br>
+                <table class="tabel">
+                <tr>
+                    <th>Negara</th>
+                    <td>Indonesia</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>Aktif</td>
+                </tr>
+                <tr>
+                    <th>Manajer</th>
+                    <td>Ghost</td>
+                </tr>
+                <tr>
+                    <th>Pelatih</th>
+                    <td>Zeys</td>
+                </tr>
+                    <tr>
+                    <th>Kapten</th>
+                    <td>Luminaire</td>
+                </tr>
+                <tr>
+                    <th>Total Pendapatan</th>
+                    <td>$100,000</td>
+                </tr>
+                </table>
+        </section>
+        </article>
+        <article class="card" id="roaster">
+            <h2>Roaster Evos</h2><br>
+            <p>
+                Inilah para wajah-wajah yang berhasil meraih kejuaraan World Championship atau M1 tahun 2019 di Kuala Lumpur, Malaysia.
+            </p><br>
+            <img src="assets/image/roasterm1.jpg" alt="Roaster Evos">
+            <br><br>
+            <p>
+                Dari yang paling kiri, yaitu Yurino Putra atau yang lebih dikenal sebagai "Donkey". disebelahnya, ada sang kapten Luminaire. Kemudian ada Gustian atau REKT. di sebelah Gustian ada seorang coach yaitu Bjorn Ong atau Zeys. di sebelah coach, ada sang Jungler Evos, yaitu Wann dan paling kanan ada MVP M1 yaitu Eko Julianto atau Oura.
+            </p>
+        </article>
+        <article class="card" id="m1">
+            <h2>Turnamen Kejuaraan Dunia (M1)</h2><br>
+            <p>
+                Dalam turnamen Mobile Legends World Championship (M1) 2019 yang berlangsung di Kuala Lumpur, Malaysia, EVOS berhasil keluar sebagai juara usai menumbangkan RRQ dalam drama 7 pertandingan dengan skor 4-3. Partai Grand Final M1 digelar pada Minggu (17/11) .
+            </p>
+            <br>
+            <img src="assets/image/m1.png" alt="M1 2019">
+            <br><br>
+            <p>
+                Meski RRQ Hoshi sempat unggul di awal-awal game dengan skor 3-1, EVOS Legends langsung bermain agresif dan berhasil mengubah alur pertandingan.
+                Di babak akhir, RRQ harus mengakui keunggulan EVOS setelah mampu mengambil First Kill dan menghancurkan 7 turret milik RRQ.
+                Hanya dalam waktu kurang dari 8 menit, pertandingan pun berakhir untuk kemenangan EVOS Legends.
+            </p><br>
+            <img src="assets/image/momen.jpg" alt="Roaster Evos">
+            <br><br>
+            <p>
+                Kemenangan ini pun menorehkan cerita yang begitu berkesan untuk EVOS. Muasalnya, setelah 3x gagal membawa pulang piala MPL ID, mereka tak hanya berhak menyandang gelar tim terbaik se-Indonesia tapi juga sedunia.
+            </p>
+        </article>
+    </main>
+    <aside>
+        <!--Digunakan untuk mengisi aside di sebelah kanan konten-->
+        <article class="card">
+            <!--menggunakan js agar bisa scroll otomatis ke artikel terkait-->
+            <h3>
+                Topik
+            </h3><br>
+            <ul>
+                <li><a href="#Evos" onclick="scrollEvos()">Evos</a></li>
+                <li><a href="#Roaster" onclick="scrollRoaster()">Roaster</a></li>
+                <li><a href="#M1" onclick="scrollM1()">M1 World Championship</a></li>
+            </ul>
+        </article>
+    </aside>
+    <aside>
+        <!--Nama author-->
+        <article class="card">
+            <center><h3>Author</h3><br>
+            <img src="assets/image/Yanuar Sabikhi.jpg" alt="Yanuar Sabikhi">
+            </center><br>
+            Nama    : Yanuar Sabikhi <br>
+            Kelas   : FEBE
+            
+            <br>
+    </aside>
+    <!--footer web dibuat fixed-->
+    <footer>
+        <small>
+          Belajar Web Dasar by Yanuar Sabikhi &#169;2022
+        </small>
+    </footer>
+    <script src="js/web.js"></script>
+</body>
+</html>
